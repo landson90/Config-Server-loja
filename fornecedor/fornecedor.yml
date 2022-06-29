@@ -1,12 +1,5 @@
-
-server:
-  port: 8081
-  
 #Banco local
- 
 spring:
-  application:
-    name: "fornecedor"
   datasource:
     username: postgres
     password: 123456
@@ -16,11 +9,4 @@ spring:
     hibernate:
       ddl-auto: update
   
-
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka
     
